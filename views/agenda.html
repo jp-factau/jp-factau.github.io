@@ -1,0 +1,47 @@
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>Fique ligado na nossa agenda</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="page-header">
+    <h1>Proximos encontros</h1>
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control" ng-model="filter" placeholder="Pesquise por um tema ou descrição">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button">
+        <span class="fa fa-search"></span>
+      </button>
+    </span>
+  </div>
+<br>
+  <!-- /.agenda-filter -->
+  <div class="row">
+    <div id="isotope-portfolio-container">
+
+      <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item-wrapper artwork creative" ng-repeat = "meeting in meetings | filter:filter track by $index">
+        <div class="portfolio-item">
+          <div class="portfolio-thumb">
+            <img src="img/portfolio/photo%20(2).jpg" class="img-responsive" alt="1st Portfolio Thumb">
+            <div class="image-overlay"></div>
+            <a ng-href="#/reuniao/{{meeting.id}}" class="portfolio-zoom"><i class="fa fa-eye"></i></a>
+            <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="portfolio-details">
+            <h5>{{meeting.title}}</h5>
+            <p class="lead">{{meeting.description}}</p>
+          </div>
+        </div>
+      </div>
+  
+     
+    </div>
+    <!-- /.isotope-portfolio-container -->
+  </div>
+  <!-- /.row -->
+</div>

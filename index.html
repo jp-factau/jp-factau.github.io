@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="" >
+  <head>
+    <title>Jovem Programador - Factau </title>
+    <meta charset="UTF-8">
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="dependencies/css/bootstrap.css">
+    <link rel="stylesheet" href="dependencies/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="jpfactau">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <a class="navbar-brand" href="#">JP-Factau</a>
+        <ul class="nav navbar-nav">
+            <li> <a href="#/agenda">Agenda</a> </li>
+            <li> <a href="#/membros">Membros</a> </li>
+        </ul>
+    </nav>
+
+    <div ng-view> </div>
+
+    <script src="dependencies/js/angular/angular.js"> </script>
+    <script src="dependencies/js/angular-cookies/angular-cookies.js"> </script>
+    <script src="dependencies/js/angular-route/angular-route.js"> </script>
+    <script src="dependencies/js/angular-resource/angular-resource.js"> </script>
+    <script src="dependencies/js/angular-sanitize/angular-sanitize.js"> </script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/meetings.js"></script>
+  </body>
+</html>

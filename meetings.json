@@ -1,0 +1,26 @@
+[
+ { 
+      "id": 1,
+      "title": "Que Diabos é POO?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
+      "kind": "Lightning Talk",
+      "subject": "Programação Orientada a Objetos",
+      "date": "28/02/2014",
+      "language": "Ruby, Python e Java",
+      "github-link": "",
+      "github-repositore": "Ainda não criado",
+      "done": false
+    },
+    { 
+      "id": 2,
+      "title": "Caixa Eletrônico",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
+      "kind": "Coding Dojo",
+      "subject": "problema do caixa eletrônico",
+      "date": "07/03/2014",
+      "language": "Ruby e C",
+      "github-link": "",
+      "github-repositore": "Ainda não criado",
+      "done": false
+    }
+]

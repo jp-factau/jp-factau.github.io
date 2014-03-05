@@ -1,0 +1,58 @@
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>{{meeting.title}}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" ng-init="show();">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="page-header">
+        {{teste}}
+        <h1>O que vamos <small>fazer?</small></h1>
+      </div>
+      <p class="lead">{{meeting.description}}</p>
+    </div>
+    <div class="col-md-4 pad-25">
+      <div class="page-header">
+        <h3><small> Mais detalhes</small></h3>
+      </div>
+      <ul class="meeting-details-list">
+        <li>
+          <h6>Atividade:</h6>
+          <div class="meeting-terms">
+            {{meeting.kind}}
+          </div>
+        </li>
+        <li>
+          <h6>Assunto:</h6>
+          <div class="meeting-terms">
+            {{meeting.subject}}
+          </div>
+        </li>
+        <li>
+          <h6>Data:</h6>
+          <div class="meeting-terms">
+            {{meeting.date}}
+          </div>
+        </li>
+        <li>
+          <h6>Linguagem:</h6>
+          <div class="meeting-terms">
+            {{meeting.language}}
+          </div>
+        </li>
+        <li>
+          <h6>Resultado:</h6>
+          <div class="meeting-terms">
+            <a ng-href="{{meeting.gh-link}}">{{meeting.gh-repositore}}</a>
+            <i class="fa fa-github"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

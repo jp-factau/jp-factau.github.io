@@ -1,0 +1,12 @@
+ { 
+      "id": 1,
+      "title": "Que diabos é POO?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
+      "kind": "Lightning Talk",
+      "subject": "Programação Orientada a Objetos",
+      "date": "28/02/2014",
+      "language": "Ruby, Python e Java",
+      "github-link": "",
+      "github-repositore": "Ainda não criado",
+      "done": false
+}

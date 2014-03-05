@@ -11,46 +11,56 @@
   <div class="row">
     <div class="col-md-8">
       <div class="page-header">
-        {{teste}}
-        <h1>O que vamos <small>fazer?</small></h1>
+        <h1>Objetivo</h1>
       </div>
       <p class="lead">{{meeting.description}}</p>
+
+      <section class="done">
+        <div class="page-header">
+          <h1>Como foi?</h1>
+        </div>
+        <p class="lead" align="justify">{{meeting.report}}</p>
+      </section>
+
     </div>
-    <div class="col-md-4 pad-25">
+
+    <div class="col-md-4">
       <div class="page-header">
-        <h3><small> Mais detalhes</small></h3>
+        <h1> Mais detalhes </h1>
       </div>
       <ul class="meeting-details-list">
         <li>
           <h6>Atividade:</h6>
-          <div class="meeting-terms">
-            {{meeting.kind}}
-          </div>
+          <div class="meeting-terms"> {{meeting.kind}} </div>
         </li>
         <li>
           <h6>Assunto:</h6>
-          <div class="meeting-terms">
-            {{meeting.subject}}
-          </div>
+          <div class="meeting-terms"> {{meeting.subject}} </div>
         </li>
         <li>
           <h6>Data:</h6>
-          <div class="meeting-terms">
-            {{meeting.date}}
-          </div>
+          <div class="meeting-terms"> {{meeting.date}} </div>
         </li>
         <li>
           <h6>Linguagem:</h6>
-          <div class="meeting-terms">
-            {{meeting.language}}
-          </div>
+          <div class="meeting-terms"> {{meeting.language}} </div>
         </li>
-        <li>
+        <li ng-show="{{meeting.done}}">
           <h6>Resultado:</h6>
-          <div class="meeting-terms">
+          <div class="meeting-terms"> 
             <a ng-href="{{meeting.gh-link}}">{{meeting.gh-repositore}}</a>
             <i class="fa fa-github"></i>
           </div>
+        </li>
+      </ul>
+      <div class="page-header">
+        <h1> Participantes </h1>
+      </div>
+      <ul class="meeting-details-list">
+        <li ng-repeat="participant in meeting.participants">
+          <h6> {{$index + 1}} </h6>
+          <div class="meeting-terms">  <a ng-href="http://{{participant.link}}" target="_blank">{{participant.name}}</a> <i ng-show="{{participant.link}}" class="fa fa-github"></i> </div>
+          <div> {{}} </div>
         </li>
       </ul>
     </div>

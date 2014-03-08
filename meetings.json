@@ -22,5 +22,17 @@
       "github-link": "",
       "github-repositore": "Ainda não criado",
       "done": false
+    },
+    { 
+      "id": 3,
+      "title": "Problema dos 25 cavalos",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
+      "kind": "Lógica",
+      "subject": "Problema dos 25 cavalos",
+      "date": "13/02/2014",
+      "language": "Algoritmo",
+      "github-link": "github.com/25cavalos",
+      "github-repositore": "25cavalos",
+      "done": true
     }
 ]

@@ -1,12 +1,21 @@
- { 
+{ 
       "id": 3,
-      "title": "Problema dos 25 cavalos",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Lógica",
-      "subject": "Problema dos 25 cavalos",
-      "date": "13/02/2014",
-      "language": "Algoritmo",
-      "github-link": "github.com/25cavalos",
-      "github-repositore": "25cavalos",
-      "done": true
+      "title": "Quem é esse tal de Rails?",
+      "date": "28/02/2014",
+      "description": "Uma visão gerão de gestão de projetos à Ruby on Rails",
+      "kind": "Talk",
+      "subject": "Uma visão gerão de gestão de projetos à Ruby on Rails",
+      "language": "Ruby",
+      "github-link": null,
+      "github-repositore": null,
+      "done": true,
+      "report": "Relatório ainda não elaborado",
+      "participants": [
+            { "name": "Joao", "link": "github.com/jmscarpa" },
+            { "name": "Lucas", "link": null },
+            { "name": "Aryson", "link": null },
+            { "name": "Diogo", "link": null },
+            { "name": "Onofre", "link": null },
+            { "name": "Rodrigo", "link": null }
+      ]
 }

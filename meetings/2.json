@@ -1,12 +1,23 @@
 { 
       "id": 2,
-      "title": "Caixa Eletrônico",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Coding Dojo",
-      "subject": "Problema do Caixa eletrônico",
-      "date": "07/03/2014",
-      "language": "Ruby e C",
-      "github-link": "",
-      "github-repositore": "Ainda não criado",
-      "done": false
+      "title": "Vamos pensar um pouquinho?",
+      "date": "21/02/2014",
+      "description": "Problema dos 25 cavalos e Números no dialeto Queniano",
+      "kind": "Desafio Lógico",
+      "subject": "Problema dos 25 cavalos e Números no dialeto Queniano",
+      "language": null,
+      "github-link": null,
+      "github-repositore": null,
+      "done": true,
+      "report": "Relatório ainda não elaborado",
+      "participants": [
+            { "name": "Joao", "link": "github.com/jmscarpa" },
+            { "name": "Lucas", "link": null },
+            { "name": "Aryson", "link": null },
+            { "name": "Paulo", "link": null },
+            { "name": "Guilherme", "link": null },
+            { "name": "Ana Carolina", "link": null },
+            { "name": "Felipe", "link": null },
+            { "name": "Rodrigo", "link": null }
+      ]
 }

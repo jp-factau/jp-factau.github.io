@@ -1,38 +1,34 @@
 [
  { 
       "id": 1,
-      "title": "Que Diabos é POO?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Lightning Talk",
-      "subject": "Programação Orientada a Objetos",
-      "date": "28/02/2014",
-      "language": "Ruby, Python e Java",
-      "github-link": "",
-      "github-repositore": "Ainda não criado",
+      "title": "Primeira reunião",
+      "date": "14/02/2014",
+      "description": "De onde veio a ideia de criar o grupo e qual nosso objetivo.",
+      "kind": "Conversa",
       "done": true
     },
     { 
       "id": 2,
-      "title": "Caixa Eletrônico",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Coding Dojo",
-      "subject": "problema do caixa eletrônico",
-      "date": "07/03/2014",
-      "language": "Ruby e C",
-      "github-link": "",
-      "github-repositore": "Ainda não criado",
-      "done": false
+      "title": "Vamos pensar um pouquinho?",
+      "date": "21/02/2014",
+      "description": "Problema dos 25 cavalos e Números no dialeto Queniano",
+      "kind": "Desafio Lógico",
+      "done": true
     },
     { 
       "id": 3,
-      "title": "Problema dos 25 cavalos",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Lógica",
-      "subject": "Problema dos 25 cavalos",
-      "date": "13/02/2014",
-      "language": "Algoritmo",
-      "github-link": "github.com/25cavalos",
-      "github-repositore": "25cavalos",
+      "title": "Quem é esse tal de Rails?",
+      "date": "28/02/2014",
+      "description": "Uma visão gerão de gestão de projetos à Ruby on Rails",
+      "kind": "Talk",
+      "done": true
+    },
+    { 
+      "id": 4,
+      "title": "Mão na massa #1",
+      "date": "07/03/2014",
+      "description": "Mão na massa usando Ruby para resolução do problema do caixa eletrônico",
+      "kind": "Dojo",
       "done": true
     }
 ]

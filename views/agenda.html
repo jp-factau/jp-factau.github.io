@@ -27,7 +27,7 @@
       <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item-wrapper artwork creative" ng-repeat = "meeting in meetings | filter:filter track by $index">
         <div class="portfolio-item">
           <div class="portfolio-thumb">
-            <img src="img/portfolio/photo%20(2).jpg" class="img-responsive" alt="1st Portfolio Thumb">
+            <img ng-src="img/meetings/{{meeting.id}}.jpg" class="img-responsive" alt="{{meeting.title}}">
             <div class="image-overlay"></div>
             <a ng-href="#/reuniao/{{meeting.id}}" class="portfolio-zoom"><i class="fa fa-eye"></i></a>
             <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a>

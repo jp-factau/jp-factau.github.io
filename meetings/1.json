@@ -1,19 +1,19 @@
  { 
-      "id": 1,
-      "title": "Que diabos é POO?",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam autem ad dolore beatae libero maiores. Iure, corrupti debitis aspernatur temporibus aliquid iste alias voluptate quis iusto quam rem reprehenderit!",
-      "kind": "Lightning Talk",
-      "subject": "Programação Orientada a Objetos",
-      "date": "28/02/2014",
-      "language": "Ruby, Python e Java",
-      "github-link": "",
-      "github-repositore": "Ainda não criado",
-      "done": true,
-      "report": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, adipisci, modi, illum minima omnis tempora error distinctio ullam mollitia reprehenderit numquam asperiores nobis nisi quibusdam laudantium qui dolorum quas cum accusamus impedit fuga aperiam deserunt expedita magnam doloribus exercitationem nam quis voluptates totam animi voluptate beatae corporis non! Aut, velit repellat quos rerum fuga explicabo dignissimos sint nam earum beatae nesciunt minus dolores possimus fugiat quas porro magnam reprehenderit numquam harum iure eos ipsam eum sed voluptate adipisci nisi quis optio in commodi recusandae voluptas id dolorem doloribus deleniti soluta architecto aspernatur aliquid ad quasi ea! Labore, saepe, ad facere natus consequuntur quia odio iste commodi a fugit soluta dolor laudantium aut dolorem ea eius molestias voluptas repellat mollitia quasi quos fugiat dolore quam? Reiciendis, eligendi, labore, consequatur quasi id nisi facere hic veritatis atque iusto incidunt eos necessitatibus illum corrupti exercitationem deserunt quisquam harum dolores blanditiis qui. Eum, hic, quod, illo, ducimus quas quam quia necessitatibus sed inventore dolorum sunt expedita officia nemo iusto ipsum optio placeat nesciunt deleniti culpa aliquid ad modi unde at fugiat saepe reprehenderit blanditiis in perspiciatis vero nisi. Beatae, fuga, aspernatur voluptatum culpa cum temporibus blanditiis libero fugit aperiam ratione quia corrupti optio! Quibusdam, possimus, ut, ipsum dicta quos repellat alias eum consequuntur non hic nihil vitae in obcaecati dolores sed sunt impedit totam blanditiis minus pariatur aspernatur tenetur ipsa voluptatibus nesciunt modi odio quod beatae ducimus enim suscipit! Aperiam, eaque, possimus, accusamus dignissimos cupiditate nemo velit expedita debitis iusto deserunt veniam rem culpa molestiae aliquam ducimus enim voluptates aspernatur! Facilis, explicabo, reiciendis, numquam quibusdam alias dolores nobis consequatur expedita nam sint sit tempora corrupti atque id voluptate ducimus omnis aut asperiores veritatis porro officia provident at recusandae molestiae voluptatibus. Voluptas facilis velit eveniet corporis minima non. Tenetur, ipsa, expedita optio atque voluptatibus ipsum!",
-      "participants": [
-            { "name": "Joao", "link": "github.com/jmscarpa" },
-            { "name": "Lucas", "link": "github.com/lucas" },
-            { "name": "Aryson", "link": "github.com/aryson" },
-            { "name": "Neto", "link": null }
-      ]
+     "id": 1,
+     "title": "Primeira reunião",
+     "date": "14/02/2014",
+     "description": "De onde veio a ideia de criar o grupo e qual nosso objetivo.",
+     "kind": "Conversa",
+     "done": true,
+     "subject": "Explicar o objetivo do grupo e quais atividade desenvolveremos",
+     "language": "Português ;)",
+     "github-link": "",
+     "github-repositore": "Ainda não criado",
+     "report": "Relatório ainda não elaborado",
+     "participants": [
+           { "name": "Joao", "link": "github.com/jmscarpa" },
+           { "name": "Lucas", "link": null },
+           { "name": "Aryson", "link": null },
+           { "name": "Neto", "link": null }
+     ]
 }

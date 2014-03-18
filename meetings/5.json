@@ -1,0 +1,14 @@
+{ 
+      "id": 5,
+      "title": "Boas vindas",
+      "date": "14/03/2014",
+      "description": "Boas vindas e apresentação do projeto para novos membros",
+      "kind": "Welcome",
+      "subject": "Boas vindas e apresentação do projeto para novos membros",
+      "language": null,
+      "github-link": null,
+      "github-repositore": null,
+      "done": true,
+      "report": "Relatório ainda não elaborado",
+      "participants": []
+}

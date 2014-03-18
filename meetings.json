@@ -30,5 +30,13 @@
       "description": "Mão na massa usando Ruby para resolução do problema do caixa eletrônico",
       "kind": "Dojo",
       "done": true
+    },
+    { 
+      "id": 5,
+      "title": "Boas vindas",
+      "date": "14/03/2014",
+      "description": "Boas vindas e apresentação do projeto para novos membros",
+      "kind": "Welcome",
+      "done": true,
     }
 ]

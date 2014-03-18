@@ -10,5 +10,23 @@
       "github-repositore": null,
       "done": true,
       "report": "Relatório ainda não elaborado",
-      "participants": []
+      "participants": [
+      { "name": "Joao", "link": "github.com/jmscarpa" },
+      { "name": "Erick", "link": null },
+      { "name": "Shelley", "link": null },
+      { "name": "Wilson", "link": null },
+      { "name": "Diogo", "link": null },
+      { "name": "Onofre", "link": null },
+      { "name": "Natalino", "link": null },
+      { "name": "Anderson", "link": null },
+      { "name": "Peruano", "link": null },
+      { "name": "Lucas", "link": null },
+      { "name": "Jeferson", "link": null },
+      { "name": "Estevão", "link": null },
+      { "name": "Guilherme", "link": null },
+      { "name": "Lucas Furtado", "link": null },
+      { "name": "Paulo", "link": null },
+      { "name": "Aryson", "link": null },
+      { "name": "Romulo", "link": null }
+      ]
 }

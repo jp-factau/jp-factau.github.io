@@ -163,6 +163,7 @@ p.copyright {
     border: 1px solid #ecf0f1;
     padding: 20px;
     border-top: 0;
+    min-height: 300px;
 }
 .member-details .member-name {
     margin-top: 0;
@@ -424,4 +425,10 @@ p.copyright {
     overflow: hidden;
     font-size: 16px;
     line-height: 25px;
+}
+
+.member-thumb{
+    height: 250px;
+    overflow: hidden;
+
 }

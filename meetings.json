@@ -39,4 +39,26 @@
       "kind": "Welcome",
       "done": true
     }
+
+    
+
+
+    {
+      "id": 7,
+      "title": "Introdução à Linguagem Python",
+      "date": "28/03/2014",
+      "description": "Definição e Conceitos básicos da linguagem Python",
+      "kind": "Bate Papo",
+      "done": true
+    }
+    {
+      "id": 8,
+      "title": "Já Ouviu Falar em C#?!?",
+      "date": "04/04/2014",
+      "description": "Definição, aplicabilidade e prática básica em C#",
+      "kind": "Palestra",
+      "done": true
+    }
+
+
 ]

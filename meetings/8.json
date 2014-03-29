@@ -1,0 +1,20 @@
+{ 
+      "id": 8,
+      "title": "Já Ouviu Falar em C#?!?",
+      "date": "04/04/2014",
+      "description": "Definição, aplicabilidade e prática básica em C#",
+      "kind": "Palestra",
+      "subject": "Já Ouviu Falar em C#?!?",
+      "language": null,
+      "github-link": null,
+      "github-repositore": null,
+      "done": true,
+      "report": "Relatório ainda não elaborado",
+      "participants": [
+            { "name": "Aryson", "link": "github.com/Aryson" },
+            { "name": "Joao", "link": "github.com/jmscarpa" },
+            { "name": "Lucas Furtado", "link": null },
+            { "name": "Felipe Martins", "link": null }
+
+      ]
+}

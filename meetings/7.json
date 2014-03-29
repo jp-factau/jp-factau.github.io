@@ -5,7 +5,7 @@
       "description": "Definição e Conceitos básicos da linguagem Python",
       "kind": "Bate Papo",
       "subject": "Definição e Conceitos básicos da linguagem Python",
-      "language": null,
+      "language": "Python",
       "github-link": null,
       "github-repositore": null,
       "done": true,
@@ -16,8 +16,8 @@
             { "name": "Lucas Furtado", "link": null },
             { "name": "Rodrigo Vittorazo", "link": null },
             { "name": "Neto", "link": null },
-            { "name": "Felipe Martins", "link": null }
-            { "name": "Jailson Júnior", "link": null }
+            { "name": "Felipe Martins", "link": null },
+            { "name": "Jailson Júnior", "link": null },
             { "name": "Ana Paula", "link": null }
 
       ]

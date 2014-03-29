@@ -9,7 +9,28 @@
 </div>
 <div class="container">
   <div class="page-header">
-    <h1>Proximos encontros</h1>
+    <h1>Proximas reuniões</h1>
+  </div>
+  <div class="row">
+    <div id="isotope-portfolio-container">
+      <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item-wrapper artwork creative" ng-repeat = "meeting in meetings | filter:{done: false} track by $index">
+        <div class="portfolio-item">
+          <div class="portfolio-thumb">
+            <img ng-src="img/meetings/{{meeting.id}}.jpg" class="img-responsive" alt="{{meeting.title}}">
+            <div class="image-overlay"></div>
+            <a ng-href="#/reuniao/{{meeting.id}}" class="portfolio-zoom"><i class="fa fa-eye"></i></a>
+            <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="portfolio-details">
+            <h5>{{meeting.title}} <br> {{meeting.date}}</h5>
+            <p class="lead">{{meeting.description}}</p>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </div>
+  <div class="page-header">
+    <h1>Reuniões passadas</h1>
   </div>
   <div class="input-group">
     <input type="text" class="form-control" ng-model="filter" placeholder="Pesquise por um tema ou descrição">
@@ -19,29 +40,24 @@
       </button>
     </span>
   </div>
-<br>
-  <!-- /.agenda-filter -->
+  <br>
   <div class="row">
     <div id="isotope-portfolio-container">
-
-      <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item-wrapper artwork creative" ng-repeat = "meeting in meetings | filter:filter track by $index">
+      <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item-wrapper artwork creative" ng-repeat = "meeting in meetings | filter:{done: true} | filter:filter  track by $index">
         <div class="portfolio-item">
           <div class="portfolio-thumb">
             <img ng-src="img/meetings/{{meeting.id}}.jpg" class="img-responsive" alt="{{meeting.title}}">
             <div class="image-overlay"></div>
             <a ng-href="#/reuniao/{{meeting.id}}" class="portfolio-zoom"><i class="fa fa-eye"></i></a>
-            <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a>
+            <!-- <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a> -->
           </div>
           <div class="portfolio-details">
-            <h5>{{meeting.title}}</h5>
+            <h5>{{meeting.title}} <br> {{meeting.date}}</h5>
             <p class="lead">{{meeting.description}}</p>
           </div>
         </div>
-      </div>
-  
-     
+      </div>   
     </div>
-    <!-- /.isotope-portfolio-container -->
   </div>
-  <!-- /.row -->
+
 </div>

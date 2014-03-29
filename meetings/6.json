@@ -12,7 +12,7 @@
       "report": "Foram lembrados conceitos de programação como variável, constante, laços, condições e operadores lógicos e em seguida foi desenvolvido o problema 'FizzBuzz' no formato Dojo. Em seguida foi apresentado a sintaxe da linguagem JavaScript, mostrando a aplicação dos mesmos conceitos abordados no ínicio da reunião. ",
       "participants": [
       { "name": "Joao", "link": "github.com/jmscarpa" },
-      { "name": "Lucas Furtado", "link": null }, 
+      { "name": "Lucas Furtado", "link": "https://github.com/lucasfurtado" }, 
       { "name": "Paulo Augusto", "link": null }, 
       { "name": "Rodrigo Vittorazo", "link": null }, 
       { "name": "Aryson Pereira", "link": null }, 

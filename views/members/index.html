@@ -16,7 +16,7 @@
     <div class="col-sm-6 col-md-3 team-member-wrap" ng-repeat = "member in members track by $index">
       <div class="team-member">
         <div class="member-thumb">
-          <img ng-src="img/members/{{member.facebook}}.jpg" class="img-responsive" alt="Member Image">
+          <img ng-src="{{member.avatar_url}}.jpg" class="img-responsive" alt="Member Image">
         </div>
         <div class="member-details">
           <h4 class="member-name">{{member.name}}</h4>

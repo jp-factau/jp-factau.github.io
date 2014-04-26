@@ -242,9 +242,6 @@ p.copyright {
 }
 
 
-
-/*Portfolio*/
-
 .portfolio-item-wrapper {
     padding-bottom: 25px;
 }
@@ -254,6 +251,7 @@ p.copyright {
     transition: all 0.2s ease;
     border-radius: 3px;
     min-height: 400px;
+    max-height: 340px;
 }
 .flush .portfolio-item {
     border-radius: 0;

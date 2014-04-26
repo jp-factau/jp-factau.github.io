@@ -253,6 +253,7 @@ p.copyright {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     border-radius: 3px;
+    min-height: 400px;
 }
 .flush .portfolio-item {
     border-radius: 0;

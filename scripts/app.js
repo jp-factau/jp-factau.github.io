@@ -7,7 +7,7 @@ angular.module('jpfactau', [
   .factory('ApiService', function() {
       var group_acronym =  "jpfactau";
       var api_version =  "v1";
-      var server =  "http://api.jovemprogramador.org";
+      var server =  "http://api.jovemprogramador.org/api";
     return {
       full_path: server+"/"+api_version+"/"+group_acronym+"/"
     };

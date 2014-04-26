@@ -1,10 +1,11 @@
 'use strict';
 
 angular.module('jpfactau')
-.controller('MeetingsCtrl', function ($scope, $http, $routeParams) {
-
- $http.get('meetings.json')
+.controller('MeetingsCtrl', function ($scope,$http,$routeParams,ApiService) {
+$scope.loading = true;
+ $http.get(ApiService.full_path+'meetings')
  .success(function(data){
+  $scope.loading = false;
   $scope.meetings = data;
 })
  .error(function(){
@@ -13,8 +14,10 @@ angular.module('jpfactau')
 
 
  $scope.show = function() {
-   $http.get('meetings/'+$routeParams.id+'.json')
+  $scope.loading = true;
+  $http.get(ApiService.full_path+'meetings/'+$routeParams.id)
    .success(function(data){
+    $scope.loading = false;
     $scope.meeting = data;
   })
    .error(function(){

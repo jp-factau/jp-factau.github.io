@@ -2,13 +2,21 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h2>Fique ligado na nossa agenda</h2>
+        <h2>Fique ligado na nossa agenda </h2>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="page-header">
+
+<div class="row" ng-show="loading">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 text-center">
+    <h3> Carregando </h3>
+    <img src="img/loader.gif" alt="">
+  </div>
+</div>
+
+<div class="container" ng-hide="loading">
+  <div class="page-header" ng-show= " ((meetings | filter: {done: false}).length > 0 )">
     <h1>Proximas reuniões</h1>
   </div>
   <div class="row">
@@ -19,7 +27,7 @@
             <img ng-src="img/meetings/{{meeting.id}}.jpg" class="img-responsive" alt="{{meeting.title}}">
             <div class="image-overlay"></div>
             <a ng-href="#/reuniao/{{meeting.id}}" class="portfolio-zoom"><i class="fa fa-eye"></i></a>
-            <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a>
+            <!-- <a href="portfolio-item-1.html" class="portfolio-link"><i class="fa fa-facebook"></i></a> -->
           </div>
           <div class="portfolio-details">
             <h5>{{meeting.title}} <br> {{meeting.date}}</h5>
@@ -29,7 +37,8 @@
       </div>   
     </div>
   </div>
-  <div class="page-header">
+  <div ng-show= " ((meetings | filter: {done: true}).length > 0 )">
+  <div class="page-header" >
     <h1>Reuniões passadas</h1>
   </div>
   <div class="input-group">
@@ -59,5 +68,5 @@
       </div>   
     </div>
   </div>
-
+</div>
 </div>

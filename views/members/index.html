@@ -1,0 +1,46 @@
+<div class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>Conheça os membros do projeto</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" ng-init="index();">
+  <div class="page-header">
+    <h1>Membros</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-3 team-member-wrap" ng-repeat = "member in members track by $index">
+      <div class="team-member">
+        <div class="member-thumb">
+          <img ng-src="img/members/{{member.facebook}}.jpg" class="img-responsive" alt="Member Image">
+        </div>
+        <div class="member-details">
+          <h4 class="member-name">{{member.name}}</h4>
+          <span class="position">{{member.role.name}}</span>
+          <p>{{member.bio}}</p>
+          <ul class="social-links">
+            <li>
+              <a class="facebook" ng-href="http://fb.me/{{member.facebook}}" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a class="google-plus" ng-href="https://plus.google.com/u/0/{{member.google_plus}}" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </li>
+            <li>
+              <a class="twitter" ng-href="http://twitter.com/{{member.twitter}}" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>

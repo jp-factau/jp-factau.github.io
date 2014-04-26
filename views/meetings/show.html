@@ -8,6 +8,12 @@
   </div>
 </div>
 <div class="container" ng-init="show();">
+<div class="row" ng-show=loading>
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 text-center">
+    <h3> Carregando </h3>
+    <img src="img/loader.gif" alt="">
+  </div>
+</div>
   <div class="row">
     <div class="col-md-8">
       <div class="page-header">
@@ -19,7 +25,7 @@
         <div class="page-header">
           <h1>Como foi?</h1>
         </div>
-        <p class="lead" align="justify">{{meeting.report}}</p>
+        <p class="lead" align="justify">{{meeting.report.show_content}}</p>
       </section>
 
     </div>
@@ -31,11 +37,7 @@
       <ul class="meeting-details-list">
         <li>
           <h6>Atividade:</h6>
-          <div class="meeting-terms"> {{meeting.kind}} </div>
-        </li>
-        <li>
-          <h6>Assunto:</h6>
-          <div class="meeting-terms"> {{meeting.subject}} </div>
+          <div class="meeting-terms"> {{meeting.kind.name}} </div>
         </li>
         <li>
           <h6>Data:</h6>
@@ -43,7 +45,7 @@
         </li>
         <li>
           <h6>Linguagem:</h6>
-          <div class="meeting-terms"> {{meeting.language}} </div>
+          <div class="meeting-terms"> {{meeting.language.name}} </div>
         </li>
         <li ng-show="{{meeting.done}}">
           <h6>Resultado:</h6>
@@ -59,7 +61,9 @@
       <ul class="meeting-details-list">
         <li ng-repeat="participant in meeting.participants">
           <h6> {{$index + 1}} </h6>
-          <div class="meeting-terms">  <a ng-href="http://{{participant.link}}" target="_blank">{{participant.name}}</a> <i ng-show="{{participant.link}}" class="fa fa-github"></i> </div>
+          <div class="meeting-terms">
+          <a ng-href="http://fb.me/{{participant.facebook}}" target="_blank">{{participant.name}}</a>
+          </div>
           <div> {{}} </div>
         </li>
       </ul>

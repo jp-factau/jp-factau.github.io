@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="" >
   <head>
     <title>Jovem Programador - Factau </title>
@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
-  <body ng-app="jpfactau">
+  <body ng-app="jpfactau" ng-controller="MainCtrl">
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <a class="navbar-brand" href="#">JP-Factau</a>
+        <a class="navbar-brand" href="#">{{group.acronym}}</a>
         <ul class="nav navbar-nav">
             <li> <a href="#/agenda">Agenda</a> </li>
             <li> <a href="#/membros">Membros</a> </li>
         </ul>
     </nav>
 
-    <div ng-view> </div>
+    <div ng-view></div>
 
     <script src="dependencies/js/angular/angular.js"> </script>
     <script src="dependencies/js/angular-cookies/angular-cookies.js"> </script>
@@ -31,5 +31,6 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/meetings.js"></script>
+    <script src="scripts/controllers/members.js"></script>
   </body>
 </html>

@@ -1,0 +1,45 @@
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2>Cadastro de Membros</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3">
+        <form role="form" >
+            <legend>Cadastro de membro</legend>
+
+            <div class="form-group">
+                <label for="">Nome</label>
+                <input type="text" class="form-control" ng-model="member.name" placeholder="Insira o nome ">
+            </div>
+            <div class="form-group">
+                <label for="">Biografia</label>
+                <textarea name="bio" ng-model="member.bio" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <label for="">Facebook</label>
+                        <input type="text" class="form-control" ng-model="member.facebook" placeholder="Insira o seu usuário do Facebook ">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <label for="">Google+</label>
+                        <input type="text" class="form-control" ng-model="member.google_plus" placeholder="Insira o seu usuário do GooglePlus ">
+                    </div>
+                </div>
+                <div class="form-group">
+                <label for="">Perfil</label>
+                <select name="role" ng- model="member.role_id" class="form-control">
+                    <option value="3"> Participante </option>
+                </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" ng-click="create()">Cadastrar Membro </button>
+        </form>
+    </div>
+</div>

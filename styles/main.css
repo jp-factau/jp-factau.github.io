@@ -431,3 +431,9 @@ p.copyright {
     overflow: hidden;
 
 }
+
+.meeting-thumb{
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
